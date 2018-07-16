@@ -2,10 +2,10 @@ package testcases.message;
 
 import org.eclipse.californium.core.CoapResponse;
 import org.eclipse.californium.core.Utils;
-import request.GETRequest;
+import request.POSTRequest;
 import scanner.ParamScanner;
 
-public class MessageRequest extends GETRequest {
+public class MessageRequest extends POSTRequest {
 	
 	@Override
 	public ParamScanner generateURIScanner(){

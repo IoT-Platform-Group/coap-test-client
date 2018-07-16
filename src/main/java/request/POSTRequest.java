@@ -17,8 +17,12 @@ public abstract class POSTRequest extends Request {
 		return scanner.scan();
 	}
 	
-	public abstract ParamScanner generateURIScanner();
+	public ParamScanner generateURIScanner() {
+		return null;
+	}
 	
-	public abstract ParamScanner generatePayloadScanner();
+	public ParamScanner generatePayloadScanner() {
+		return null;
+	}
 	
 }
